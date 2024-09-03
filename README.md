@@ -1,6 +1,6 @@
-# Pair-Sum
+# Pair-Sum using list only
 
-Here we're going to find the sum of pairs of elements from a given list/array to match with target.
+Here we're going to find the sum of pairs of elements from a given list to match with target.
 example:
         [2,7,11,15] is the list
         here taget --> 9
