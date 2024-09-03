@@ -1,9 +1,9 @@
-def findPairs(arr,target):
-    for i in range(len(arr)):
-        for j in range(i+1,len(arr)):
-            if arr[i]==arr[j]:
+def findPairs(List,target):
+    for i in range(len(List)):
+        for j in range(i+1,len(List)):
+            if List[i]==List[j]:
                 continue
-            elif arr[i]+arr[j]==target:
+            elif List[i]+List[j]==target:
                 print(i, j)
 myList=[1,2,3,2,3,4,5,6]
 findPairs(myList,6)
